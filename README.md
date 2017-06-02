@@ -1,4 +1,5 @@
 # **Finding Lane Lines on the Road** 
+[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
 ## Writeup
 
@@ -30,9 +31,6 @@ The goals / steps of this project are the following:
 * Overlayed the line on the original image
 * The slope ranges (with padding) obtained by these best fit curves were used to filter outliers in the challenge video
 
-![image1][test_images_output/solidWhiteCurve.jpg]
-![image2][test_images_output/solidYellowCurve.jpg]
-
 
 ### 2. Identify potential shortcomings with your current pipeline
 * If the camera is mounted in a way that lane lines do not fit in the expected region of interest pipeline will fail
@@ -43,3 +41,18 @@ The goals / steps of this project are the following:
 * Further tuning of parameters to better identify lane lines
 * Dynamically identifying regions of interest and applying a mask
 * Better solution for dealing with regions of shadows and brightness on the lane
+
+
+#### Output Images
+![image1](test_images_output/solidWhiteCurve.jpg)
+![image2](test_images_output/solidWhiteRight.jpg)
+![image3](test_images_output/solidYellowCurve.jpg)
+![image4](test_images_output/solidYellowCurve2.jpg)
+![image5](test_images_output/solidYellowLeft.jpg)
+![image6](test_images_output/whiteCarLaneSwitch.jpg)
+
+#### Output Videos
+[![solidWhiteRight.mp4](http://img.youtube.com/vi/zkXIPaBidnM/0.jpg)](http://www.youtube.com/watch?v=zkXIPaBidnM "solidWhiteRight.mp4")
+[![solidYellowLeft.mp4](http://img.youtube.com/vi/UkGv45muS6c/0.jpg)](http://www.youtube.com/watch?v=UkGv45muS6c "solidYellowLeft.mp4")
+[![challenge.mp4](http://img.youtube.com/vi/dZXCemfWwXI/0.jpg)](http://www.youtube.com/watch?v=dZXCemfWwXI "challenge.mp4")
+
